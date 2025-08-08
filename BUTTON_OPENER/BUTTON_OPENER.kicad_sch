@@ -9345,7 +9345,7 @@
 		)
 	)
 	(label "EN"
-		(at 170.18 104.14 0)
+		(at 170.18 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9585,7 +9585,7 @@
 		(uuid "64900262-1dd1-4185-8219-8c4420cc6a31")
 	)
 	(label "OPTO_IN1"
-		(at 170.18 60.96 0)
+		(at 170.18 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12004,16 +12004,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 270.51 102.87 180)
+		(at 270.51 100.33 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "383b0618-3be6-4c06-8d35-ad0de2ee5900")
 		(property "Reference" "J2"
-			(at 271.78 100.3299 0)
+			(at 271.78 102.8701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12022,7 +12022,7 @@
 			)
 		)
 		(property "Value" "OPTO_OUT_1"
-			(at 271.78 102.8699 0)
+			(at 271.78 100.3301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12031,7 +12031,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical"
-			(at 270.51 102.87 0)
+			(at 270.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12040,7 +12040,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 102.87 0)
+			(at 270.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12049,7 +12049,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 270.51 102.87 0)
+			(at 270.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12058,7 +12058,7 @@
 			)
 		)
 		(property "tolerance" ""
-			(at 270.51 102.87 0)
+			(at 270.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12067,7 +12067,7 @@
 			)
 		)
 		(property "type" ""
-			(at 270.51 102.87 0)
+			(at 270.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12076,7 +12076,7 @@
 			)
 		)
 		(property "voltage" ""
-			(at 270.51 102.87 0)
+			(at 270.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13243,7 +13243,7 @@
 		(at 149.86 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15071,16 +15071,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 270.51 116.84 180)
+		(at 270.51 114.3 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7e407eb7-63e6-4106-96f8-5f646af5315c")
 		(property "Reference" "J3"
-			(at 271.78 114.2999 0)
+			(at 271.78 116.8401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15089,7 +15089,7 @@
 			)
 		)
 		(property "Value" "OPTO_OUT_2"
-			(at 271.78 116.8399 0)
+			(at 271.78 114.3001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15098,7 +15098,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical"
-			(at 270.51 116.84 0)
+			(at 270.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15107,7 +15107,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 116.84 0)
+			(at 270.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15116,7 +15116,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 270.51 116.84 0)
+			(at 270.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15125,7 +15125,7 @@
 			)
 		)
 		(property "tolerance" ""
-			(at 270.51 116.84 0)
+			(at 270.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15134,7 +15134,7 @@
 			)
 		)
 		(property "type" ""
-			(at 270.51 116.84 0)
+			(at 270.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15143,7 +15143,7 @@
 			)
 		)
 		(property "voltage" ""
-			(at 270.51 116.84 0)
+			(at 270.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16701,7 +16701,7 @@
 		(at 66.04 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "be9ec89c-96cb-49e3-b5d8-f176797ef2cb")
@@ -16941,7 +16941,7 @@
 		(at 247.65 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
