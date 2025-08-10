@@ -2204,6 +2204,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C466988"
+			(at 190.5 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "95a4e398-cf2f-400d-abba-2d2eca8e4aab")
 		)
@@ -2287,6 +2296,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C466988"
+			(at 172.72 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "95a4e398-cf2f-400d-abba-2d2eca8e4aac")
 		)
@@ -2333,7 +2351,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2K2"
 			(at 137.16 121.9199 0)
 			(effects
 				(font
@@ -2388,6 +2406,15 @@
 			)
 		)
 		(property "voltage" ""
+			(at 134.62 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C4190"
 			(at 134.62 120.65 0)
 			(effects
 				(font
@@ -2485,6 +2512,15 @@
 			)
 		)
 		(property "voltage" ""
+			(at 119.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C16581"
 			(at 119.38 111.76 0)
 			(effects
 				(font
@@ -2614,7 +2650,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "N/A"
+		(property "Value" "0R"
 			(at 105.41 101.5999 0)
 			(effects
 				(font
@@ -2677,6 +2713,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C21189"
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "af936497-b492-46e8-8ad7-a700c926075b")
 		)
@@ -2711,7 +2756,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1K"
 			(at 201.93 101.5999 0)
 			(effects
 				(font
@@ -2774,6 +2819,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C21190"
+			(at 199.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "32871fcc-9441-4c88-bba7-d31d9c7f81ae")
 		)
@@ -2794,9 +2848,9 @@
 		(at 213.36 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7a0d06e6-c8c4-4f0f-8f47-566cfaa82553")
 		(property "Reference" "BT1"
@@ -2863,6 +2917,15 @@
 			)
 		)
 		(property "voltage" ""
+			(at 213.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 213.36 95.25 0)
 			(effects
 				(font
@@ -2967,6 +3030,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C14663"
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "70e29e02-801b-4f4b-9c31-c6ae01c1dfa8")
 		)
@@ -3035,6 +3107,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C2927799"
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "8b757d82-559b-4a65-9454-dd3b5a4b18f6")
 		)
@@ -3067,9 +3148,9 @@
 		(at 90.17 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "af7844ad-fabe-4956-8338-1f77492a4280")
 		(property "Reference" "R30"
@@ -3081,7 +3162,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "N/A"
+		(property "Value" "47K"
 			(at 92.71 101.5999 0)
 			(effects
 				(font
@@ -3136,6 +3217,15 @@
 			)
 		)
 		(property "voltage" ""
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 90.17 100.33 0)
 			(effects
 				(font
@@ -3239,6 +3329,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C22775"
+			(at 152.4 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3bd2edaa-db6b-41e6-9bb7-9b3382ab9f3a")
 		)
@@ -3259,9 +3358,9 @@
 		(at 81.28 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d5246a86-d7c9-4dae-886e-c5f04e0141d7")
 		(property "Reference" "R29"
@@ -3273,7 +3372,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "N/A"
+		(property "Value" "47K"
 			(at 83.82 101.5999 0)
 			(effects
 				(font
@@ -3328,6 +3427,15 @@
 			)
 		)
 		(property "voltage" ""
+			(at 81.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 81.28 100.33 0)
 			(effects
 				(font
@@ -3424,6 +3532,15 @@
 			)
 		)
 		(property "voltage" ""
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C14663"
 			(at 111.76 96.52 0)
 			(effects
 				(font

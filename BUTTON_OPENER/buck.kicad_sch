@@ -1087,7 +1087,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF 6.3V X7R"
+		(property "Value" "10uF"
 			(at 167.64 87.6299 0)
 			(effects
 				(font
@@ -1150,6 +1150,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C19702"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8ae08cb-aa56-44de-93b5-8ba9da3e6840")
 		)
@@ -1170,9 +1179,9 @@
 		(at 147.32 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "11648add-ac11-412c-9b24-7c998d7441aa")
 		(property "Reference" "R36"
 			(at 147.32 81.28 90)
@@ -1244,6 +1253,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 147.32 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b9080d8c-850e-4ab4-9452-c699d43f47e4")
 		)
@@ -1278,7 +1296,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "NC"
+		(property "Value" "22pF"
 			(at 157.48 82.5499 0)
 			(effects
 				(font
@@ -1333,6 +1351,15 @@
 			)
 		)
 		(property "voltage" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 153.67 81.28 0)
 			(effects
 				(font
@@ -1501,6 +1528,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25808"
+			(at 147.32 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "df3ef8f9-774f-43a3-a1a9-8aa6869b4501")
 		)
@@ -1535,7 +1571,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF 6.3V X7R"
+		(property "Value" "10uF"
 			(at 100.33 87.6299 0)
 			(effects
 				(font
@@ -1598,6 +1634,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C19702"
+			(at 96.52 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee0735a1-9700-4882-8945-4a83e7fc43fd")
 		)
@@ -1631,7 +1676,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV62568DBV"
+		(property "Value" "SUNTEK  SK6615CS5"
 			(at 123.19 71.12 0)
 			(effects
 				(font
@@ -1650,7 +1695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv62568.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590910237937651712"
 			(at 116.84 67.31 0)
 			(effects
 				(font
@@ -1659,7 +1704,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-23-5"
+		(property "Description" ""
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2986199"
 			(at 123.19 78.74 0)
 			(effects
 				(font
@@ -1718,7 +1772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_APV_ANR4020"
+		(property "Footprint" "Inductor_SMD:L_APV_ANR4026"
 			(at 139.7 76.2 0)
 			(effects
 				(font
@@ -1738,6 +1792,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C167854"
+			(at 139.7 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
