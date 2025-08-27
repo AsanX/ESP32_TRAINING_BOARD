@@ -1,6 +1,7 @@
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
+#include <Temperature_LM75_Derived.h>
 
 #define SCREEN_WIDTH 128  // OLED width in pixels
 #define SCREEN_HEIGHT 64  // OLED height in pixels
@@ -23,6 +24,8 @@ const boolean invert = true;  // set true if common anode, false if common catho
 uint8_t color = 0;         // a value from 0 to 255 representing the hue
 uint32_t R, G, B;          // the Red Green and Blue color components
 uint8_t brightness = 255;  // 255 is maximum brightness, but can be changed.  Might need 256 for common anode to fully turn off.
+
+Generic_LM75_12Bit temperature;
 
 // the setup routine runs once when you press reset:
 void setup() {
@@ -66,6 +69,7 @@ void loop()
       // read the analog / millivolts value for pin 2:
     int analogValue = analogRead(36);
     int analogVolts = analogReadMilliVolts(36);
+    float tempC = temperature.readTemperatureC();  // Read temperature in Celsius
 
     // === OLED output ===
     display.clearDisplay();
@@ -74,6 +78,11 @@ void loop()
     display.print(F("Battery: "));
     display.print(convertadctobat((uint16_t)analogVolts));
     display.println(F(" mV"));
+    display.setCursor(0, 20);
+    display.setTextSize(1);
+    display.print(F("Temp: "));
+    display.print(tempC);
+    display.println(F(" C"));
     display.display();
 
     delay(10);
